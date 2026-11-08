@@ -1,0 +1,6 @@
+node_modules/
+web/dist/
+solver/rubik
+solver/test_solver
+*.o
+.DS_Store
