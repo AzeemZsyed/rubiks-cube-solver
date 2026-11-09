@@ -78,7 +78,7 @@ npm run dev                     # http://localhost:5173/rubiks-cube-solver/
 ```
 
 ### Deployment
-Pushing to `main` runs the tests and deploys to GitHub Pages via `.github/workflows/deploy.yml`. In the repo settings, set **Pages → Source** to **GitHub Actions**.
+Pushing to `main` runs the tests, builds the site and publishes it to the `gh-pages` branch via `.github/workflows/deploy.yml`. GitHub Pages serves that branch (**Settings → Pages → Deploy from a branch → gh-pages**).
 
 ## Facelet format
 
